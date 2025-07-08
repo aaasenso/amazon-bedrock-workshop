@@ -9,3 +9,8 @@ Get more stable folder config for training
     git bundle verify /tmp/repo.bundle
     git fetch /tmp/repo.bundle
     git checkout -b bundle-branch FETCH_HEAD
+
+
+Kohootit -- For question and answers
+-------------------------
+https://kahoot.it/ranking
