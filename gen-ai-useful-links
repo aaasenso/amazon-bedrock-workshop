@@ -1,0 +1,11 @@
+More info about promps
+-----------------------
+https://www.promptingguide.ai
+
+Get more stable folder config for training
+-----------------------------------------
+    cd amazon-bedrock-workshop
+    curl -Lo /tmp/repo.bundle "https://pace-bootcamp-distribution.s3.eu-central-1.amazonaws.com/tShjq5D.bundle?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQZ3JXW3STC55JFBR%2F20250702%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250702T000217Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=505315295a1f28ff047b6514994dbedc4fd7a8d52fccceee6c61fd68ca8c2956"
+    git bundle verify /tmp/repo.bundle
+    git fetch /tmp/repo.bundle
+    git checkout -b bundle-branch FETCH_HEAD
